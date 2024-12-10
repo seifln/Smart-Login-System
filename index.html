@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="sign up/css/style.css">
+</head>
+<body>
+    <form id="registerForm" class="register-form">
+
+        <div class="container mx-auto my-5 text-center">
+            <div class="group shadow-lg mx-auto w-50 p-5">
+                <h1 class="text-info mb-4">Smart Login System</h1>
+
+                <input class="form-control mb-4" type="text" name="username" id="signName" placeholder="Enter Your Name">
+                <input class="form-control mb-4" type="email" name="useremail" id="signEmail" placeholder="Enter Your Email">
+                <input class="form-control mb-4" type="password" name="userpassword" id="signPassword" placeholder="Enter Your Password">
+
+                <div class="alert alert-danger d-none" id="nameAlert">At Least Two characters Name</div>
+                <div class="alert alert-danger d-none" id="emailAlert">Please Enter Vaild Email</div>
+                <div class="alert alert-danger d-none" id="passwordAlert">At Least 8 characters <br> -one Uppercase At Least <br> -At Least one Special character <br> -At Least one number  </div>
+                <div class="alert alert-danger d-none" id="existAlert">Email Is Already Exist</div>
+                <div class="alert alert-success d-none" id="successAlert">Success You Can Login</div>
+
+                <button class="btn btn-outline-info w-100">Sign Up</button>
+
+                <p class="text-white mt-3">Do you have an Account? <a href="sign in/login.html">Sign In</a></p>
+            
+            </div>
+        </div>
+
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="sign up/js/index.js"></script>
+</body>
+</html>

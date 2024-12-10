@@ -1,0 +1,20 @@
+body{
+    background-color: #24353F;
+}
+.navbar{
+    background-color: #24353F !important;
+
+}
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+  }
+#welcomeMsg{
+    color:#17a2b8;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    transform: translate(0%, -50%);
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
